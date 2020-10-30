@@ -4,7 +4,7 @@ def find_min_in_nested_arrays(src)
   for i in 0...src.length 
     smallest = 200
     smalls = []
-    for j in src[i].length
+    for j in 0...src[i].length
       if src[i][j] < smallest
         smallest = src[i][j]
       end 
